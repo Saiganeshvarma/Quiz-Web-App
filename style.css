@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Full height for centering */
+}
+
+.container {
+    background: #ffffff; /* White background for the quiz container */
+    border-radius: 15px; /* Slightly more rounded corners */
+    padding: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+    text-align: center;
+    width: 500px; /* Fixed width */
+    max-width: 90%; /* Responsive design */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00796b; /* Dark teal color for the heading */
+}
+
+.quiz-container {
+    margin: 20px 0;
+    text-align: left; /* Align question text to the left */
+}
+
+.question-progress {
+    font-size: 1em;
+    color: #00796b; /* Dark teal for progress text */
+    margin-bottom: 10px;
+}
+
+.question {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.label-container {
+    display: flex; /* Use flexbox for side-by-side alignment */
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+label {
+    display: block; /* Keep labels block for better spacing */
+    flex: 1; /* Allow labels to grow and take up space */
+    margin: 0 10px; /* Add space between labels */
+    font-size: 1em; /* Increased font size */
+    background-color: #b2ebf2; /* Light blue for label background */
+    padding: 10px; /* Padding for labels */
+    border-radius: 5px; /* Rounded corners for labels */
+    transition: background-color 0.3s;
+}
+
+label:hover {
+    background-color: #80deea; /* Darker blue on hover */
+}
+
+.btn {
+    background-color: #00796b; /* Dark teal color for buttons */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    padding: 12px 24px; /* Increased padding */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #004d40; /* Darker teal on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.score-container {
+    margin-top: 20px;
+    color: #00796b; /* Dark teal color for score text */
+}
