@@ -5,7 +5,6 @@ A fun and interactive quiz application built with HTML, CSS, and JavaScript. Thi
 ## Features
 
 - **10 Questions**: A diverse set of questions to challenge your knowledge.
-- **Multiple Levels**: Different levels of difficulty to make the quiz more engaging.
 - **User Interface**: A responsive and visually appealing UI design.
 - **Question Progress**: Displays progress in the format `X/10` (e.g., 1/10).
 - **Final Score Display**: Shows the total score with a congratulatory message at the end.
